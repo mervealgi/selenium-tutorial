@@ -26,9 +26,9 @@ public class xpath {
         driver.get(BASE_URL);
         driver.findElement(By.xpath("/html/body/div/div/form/div[1]/input")).sendKeys("mervealgi@gmail.com");
         driver.findElement(By.xpath("/html/body/div/div/form/div[2]/input")).sendKeys("Merve");
-        driver.findElement(By.xpath("/html/body/div/div/form/div[3]/input")).sendKeys("Algı");
-        driver.findElement(By.xpath("/html/body/div/div/form/div[4]/input")).sendKeys("12345");
-        driver.findElement(By.xpath("/html/body/div/div/form/div[5]/input")).sendKeys("12345");
+        driver.findElement(By.xpath("//form/div[3]/input")).sendKeys("Algı");
+        driver.findElement(By.xpath("//form/div[4]/input")).sendKeys("12345");
+        driver.findElement(By.xpath("//form/div[5]/input")).sendKeys("12345"); // //button[2] altern
     }
 
     @After
