@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TutorialTwo {
+public class LastTutorial {
     WebDriver driver;
     private final String BASE_URL = "http://localhost/tiklabana.php";
 
@@ -19,9 +19,8 @@ public class TutorialTwo {
     public void test(){
         driver.get(BASE_URL);
         driver.findElement(By.id("clickMe")).click();
-
     }
-
+    
     @After
     public void tearDown(){
         driver.quit();

@@ -26,6 +26,8 @@ public class HesapliyoruzTest {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
+
+  
   @Before
   public void setUp() {
     System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");

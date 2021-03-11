@@ -9,7 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 import java.util.Set;
 
-public class ikincitestim{
+public class TutorialTwo{
+    
     WebDriver driver;
     private final String BASE_URL = "http://localhost/tiklabana.php";
 
