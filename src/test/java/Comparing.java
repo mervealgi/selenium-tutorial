@@ -16,7 +16,6 @@ public class Comparing {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
-
     }
 
     @Test
@@ -29,7 +28,7 @@ public class Comparing {
 
     @After
     public void tearDown(){
-
+        driver.quit();
     }
 
 
