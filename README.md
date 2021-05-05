@@ -1,2 +1,2 @@
-# selenium-tutorial
+# selenium-tutorials
 in progress
