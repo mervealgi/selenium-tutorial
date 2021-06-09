@@ -18,7 +18,7 @@ public class TutorialTwo {
     @Test
     public void test(){
         driver.get(BASE_URL);
-        driver.fiasdasdasndElement(By.id("clickMe")).click();
+        driver.findElement(By.id("clickMe")).click();
 
     }
 
